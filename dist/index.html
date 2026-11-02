@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c0a09">
+  <meta name="description" content="豪哥的手机中文体验：张家豪、金建佑的消息与藏在手机里的故事。">
+  <title>豪哥的手机 · 中文体验</title>
+  <link rel="icon" href="./assets/media/arno-avatar.png">
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./guide.css">
+</head>
+<body>
+  <div id="root"></div>
+  <nav id="cn-tools" aria-label="体验工具">
+    <span class="cn-brand">豪哥的手机 <small>中文体验</small></span>
+    <div class="cn-tool-buttons">
+      <button id="cn-home" type="button" aria-label="返回手机桌面">桌面</button>
+      <button id="cn-help" type="button" aria-haspopup="dialog">体验提示 <span>?</span></button>
+    </div>
+  </nav>
+  <dialog id="cn-guide" aria-labelledby="cn-guide-title">
+    <div class="cn-guide-head"><div><span class="cn-eyebrow">使用之前</span><h1 id="cn-guide-title">从一条消息开始</h1></div><button id="cn-close" aria-label="关闭体验提示">×</button></div>
+    <p class="cn-intro">这是一部藏在手机里的互动故事。你拿到的是金建佑的手机，聊天里的“豪哥”就是张家豪。</p>
+    <p>左右拖动桌面可以翻页。先看看聊天、备忘录、课表和社交动态，再试着用不同应用联系豪哥。收到通知时点开，对话会逐条出现，等对方说完再离开。</p>
+    <p>手机底部的横条向上拖动可返回桌面，也可以点屏幕外的“桌面”。进度会自动保存在当前浏览器里。</p>
+    <div class="cn-guide-group">
+      <details><summary>卡在锁屏？</summary><div class="cn-answer">点一下锁屏或向上滑动，输入 <code>020707</code>。</div></details>
+      <details><summary>想知道都能体验什么？</summary><div class="cn-answer">两页桌面共 16 个应用：KakaoTalk、微信、Instagram、短信、电话、FaceTime、Everytime 校园社区、日历、备忘录、GoodNotes、相册、浏览器、外卖、KREAM、哔哩哔哩和小红书。<br><br>可以浏览消息与动态、发消息、查看照片和视频、查看日程与笔记，以及触发后续通话。原站中的账号受限、拉黑和空白状态也属于体验内容；部分装饰按钮没有实际功能。这里是模拟手机，不会真的发消息、打电话、下单或登录这些平台。</div></details>
+      <details><summary>找不到继续剧情的方法？<em>含剧情提示</em></summary><div class="cn-answer"><ol><li>在 KakaoTalk、微信、短信、Everytime 各发一条消息，再尝试用电话或 FaceTime 联系豪哥。至少要通过 5 类应用联系过。</li><li>到 Instagram 个人页切换账号，添加 <code>arno.77</code>，密码 <code>030411</code>。第一次出现“等待主设备批准”是剧情的一部分。</li><li>等待 Everytime 的张家豪新通知，<strong>点通知进入对话</strong>，留在对话中约 45 秒，等他全部说完。</li><li>之后可以再试一次 Instagram 账号登录。</li></ol>顺序可以不同；如果已经做过其中几步，继续未完成的部分即可。</div></details>
+      <details><summary>最后的来电怎么触发？<em>含结局提示</em></summary><div class="cn-answer">在 Everytime 给张家豪发送包含“<strong>别走</strong>”的消息，随后接听来电。通话字幕会逐句展开，大约两分钟。</div></details>
+    </div>
+    <footer class="cn-guide-footer">原作：<a href="https://gnrn.vercel.app/" target="_blank" rel="noopener noreferrer">gnrn.vercel.app</a> · 本页为中文个人体验版。照片、视频与原始剧情来自原站。日历、外卖和笔记入口已开放；相册入口补充为原站照片集。</footer>
+  </dialog>
+  <script type="module" src="./assets/app.js"></script>
+  <script src="./guide.js" defer></script>
+</body>
+</html>

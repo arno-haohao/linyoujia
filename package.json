@@ -1,0 +1,8 @@
+{
+  "name": "hao-phone-chinese",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "devDependencies": { "acorn": "^8.19.0" }
+}
